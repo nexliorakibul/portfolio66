@@ -19,7 +19,7 @@ export default function Portfolio() {
       "https://images.unsplash.com/photo-1529336953121-a0fadde0bb43?w=1600&q=80&auto=format&fit=crop",
     socials: [
     
-      { label: "Facebook", href: "https://dribbble.com/" },
+      { label: "Facebook", href: "https://www.facebook.com/rakibul.aqib" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/rakibul-aqib/" },
       { label: "Instagram", href: "https://www.instagram.com/rakibul__aqib/" },
     ],
