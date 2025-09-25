@@ -13,7 +13,7 @@ export default function Portfolio() {
     tagline:
       "I help brands grow with strategy-led design, social content, and performance marketing.",
     location: "Dhaka, Bangladesh",
-    email: "shuvorakib74@gmail.com",
+    email: "rakibulaqib04@gmail.com",
     avatar: "/edited-photo (1) copy.png",
     heroImage:
       "https://images.unsplash.com/photo-1529336953121-a0fadde0bb43?w=1600&q=80&auto=format&fit=crop",
