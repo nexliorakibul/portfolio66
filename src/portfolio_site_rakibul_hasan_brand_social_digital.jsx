@@ -184,9 +184,9 @@ export default function Portfolio() {
                 </div>
                 <div className="mt-4 grid grid-cols-3 gap-3">
                   {[
-                    { k: "60+", v: "Brands" },
-                    { k: "8yr", v: "Experience" },
-                    { k: "$MM+", v: "Ad Spend" },
+                    { k: "10+", v: "Brands" },
+                    { k: "2yr", v: "Experience" },
+                    { k: "$100K+", v: "Ad Spend" },
                   ].map((m) => (
                     <div key={m.k} className="rounded-xl border border-white/10 bg-white/5 p-3 text-center">
                       <p className="text-xl font-semibold">{m.k}</p>
@@ -339,7 +339,7 @@ export default function Portfolio() {
         <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
           <h2 className="text-2xl md:text-4xl font-semibold tracking-tight">Let’s build your next launch</h2>
           <p className="mt-2 text-sm opacity-80 max-w-2xl">
-            Tell me about your brand and goals. I’ll reply within 24 hours with next steps and a quick scope suggestion.
+            Tell me about your brand and goals. I'll reply within 24 hours with next steps and a quick scope suggestion. Email me directly at rakibulaqib04@gmail.com
           </p>
           <form
             onSubmit={(e) => {
