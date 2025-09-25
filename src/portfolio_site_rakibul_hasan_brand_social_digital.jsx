@@ -36,7 +36,7 @@ export default function Portfolio() {
     {
       title: "Social Media Manager",
       desc: "End-to-end management of your brand’s social presence. From content scheduling and posting to community engagement and growth strategies.",
-      bullets: ["Strategy & Planning", "CContent Scheduling", "Community Engagement"],
+      bullets: ["Strategy & Planning", "Content Scheduling", "Community Engagement"],
       icon: "📱",
     },
     {
