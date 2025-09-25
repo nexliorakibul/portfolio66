@@ -18,10 +18,10 @@ export default function Portfolio() {
     heroImage:
       "https://images.unsplash.com/photo-1529336953121-a0fadde0bb43?w=1600&q=80&auto=format&fit=crop",
     socials: [
-      { label: "Behance", href: "https://www.behance.net/" },
-      { label: "Dribbble", href: "https://dribbble.com/" },
+    
+      { label: "Facebook", href: "https://dribbble.com/" },
       { label: "LinkedIn", href: "https://www.linkedin.com/" },
-      { label: "Instagram", href: "https://instagram.com/" },
+      { label: "Instagram", href: "https://www.instagram.com/rakibul__aqib/" },
     ],
   };
 
