@@ -61,8 +61,6 @@ export default function Portfolio() {
   ],
   tags: ["Collab", "Marketing", "Sales"],
 },
-  tags: ["Social", "Manager", "Collab"],
-},
     {
       title: "Nova Café – Launch Campaign",
       subtitle: "Identity • Content System • Paid Social",
