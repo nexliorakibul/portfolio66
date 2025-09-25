@@ -120,7 +120,7 @@ export default function Portfolio() {
   ];
 
   const year = useMemo(() => new Date().getFullYear(), []);
-  const [active, setActive] = useState(0);
+  const [activeMetrics, setActiveMetrics] = useState(() => projects.map(() => 0));
 
   return (
     <main className="min-h-screen bg-neutral-950 text-neutral-100">
@@ -238,7 +238,10 @@ export default function Portfolio() {
         </div>
 
         <div className="mt-8 grid md:grid-cols-3 gap-4 md:gap-6">
-          {projects.map((p, idx) => (
+          {projects.map((p, idx) => {
+            const activeIndex = activeMetrics[idx] ?? 0;
+
+            return (
             <article key={p.title} className="rounded-2xl overflow-hidden border border-white/10 bg-white/[0.03]">
               <div className="aspect-[4/3] overflow-hidden">
                 <img src={p.cover} alt={p.title} className="size-full object-cover hover:scale-[1.05] transition-transform" />
@@ -258,9 +261,15 @@ export default function Portfolio() {
                     {p.metrics.map((m, i) => (
                       <button
                         key={m.k}
-                        onClick={() => setActive(i)}
+                        onClick={() =>
+                          setActiveMetrics((prev) => {
+                            const updated = [...prev];
+                            updated[idx] = i;
+                            return updated;
+                          })
+                        }
                         className={`text-xs rounded-full px-2 py-1 border ${
-                          active === i
+                          activeIndex === i
                             ? "bg-emerald-400 text-neutral-900 border-emerald-300"
                             : "bg-white/5 border-white/10"
                         }`}
@@ -270,13 +279,14 @@ export default function Portfolio() {
                     ))}
                   </div>
                   <div className="mt-2 rounded-xl border border-white/10 bg-white/5 p-3 text-center">
-                    <p className="text-2xl font-semibold">{p.metrics[active].k}</p>
-                    <p className="text-xs opacity-80">{p.metrics[active].v}</p>
+                    <p className="text-2xl font-semibold">{p.metrics[activeIndex].k}</p>
+                    <p className="text-xs opacity-80">{p.metrics[activeIndex].v}</p>
                   </div>
                 </div>
               </div>
             </article>
-          ))}
+            );
+          })}
         </div>
       </section>
 
