@@ -50,15 +50,17 @@ export default function Portfolio() {
   // ---- Case Studies / Projects ----
   const projects = [
  {
-  title: "Collab Design – Social Media Manager",
-  subtitle: "Strategy • Content • Community",
+  title: "Collab Design – Marketing & Sales",
+  subtitle: "Creative • Campaigns • Conversions",
   cover:
     "https://collab.design/images/vancouver.webp",
   metrics: [
-    { k: "+175%", v: "Engagement" },
-    { k: "+8.2K", v: "Followers" },
-    { k: "2.5x", v: "Interactions" },
+    { k: "+220%", v: "Leads" },
+    { k: "3.8x", v: "Conversions" },
+    { k: "+145%", v: "Sales Growth" },
   ],
+  tags: ["Collab", "Marketing", "Sales"],
+},
   tags: ["Social", "Manager", "Collab"],
 },
     {
