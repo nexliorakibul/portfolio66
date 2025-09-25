@@ -49,18 +49,18 @@ export default function Portfolio() {
 
   // ---- Case Studies / Projects ----
   const projects = [
-    {
-      title: "Helmi – Brand & Social Support",
-      subtitle: "Branding • Social Media • Marketing",
-      cover:
-        "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1200&q=80&auto=format&fit=crop",
-      metrics: [
-        { k: "+128%", v: "Reach" },
-        { k: "3.2x", v: "Engagement" },
-        { k: "-24%", v: "CPC" },
-      ],
-      tags: ["Brand", "Social", "Digital"],
-    },
+ {
+  title: "Collab Design – Social Media Manager",
+  subtitle: "Strategy • Content • Community",
+  cover:
+    "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=1200&q=80&auto=format&fit=crop",
+  metrics: [
+    { k: "+175%", v: "Engagement" },
+    { k: "+8.2K", v: "Followers" },
+    { k: "2.5x", v: "Interactions" },
+  ],
+  tags: ["Social", "Manager", "Collab"],
+},
     {
       title: "Nova Café – Launch Campaign",
       subtitle: "Identity • Content System • Paid Social",
