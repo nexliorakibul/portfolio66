@@ -20,7 +20,7 @@ export default function Portfolio() {
     socials: [
     
       { label: "Facebook", href: "https://dribbble.com/" },
-      { label: "LinkedIn", href: "https://www.linkedin.com/" },
+      { label: "LinkedIn", href: "https://www.linkedin.com/in/rakibul-aqib/" },
       { label: "Instagram", href: "https://www.instagram.com/rakibul__aqib/" },
     ],
   };
