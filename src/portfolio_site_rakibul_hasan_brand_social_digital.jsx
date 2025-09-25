@@ -34,9 +34,9 @@ export default function Portfolio() {
       icon: "🏷️",
     },
     {
-      title: "Social Media Design",
-      desc: "High-performing, on-brand content for Instagram, Facebook, and LinkedIn.",
-      bullets: ["Content Kits", "Carousels", "Motion/GIFs"],
+      title: "Social Media Manager",
+      desc: "End-to-end management of your brand’s social presence. From content scheduling and posting to community engagement and growth strategies.",
+      bullets: ["Strategy & Planning", "CContent Scheduling", "Community Engagement"],
       icon: "📱",
     },
     {
