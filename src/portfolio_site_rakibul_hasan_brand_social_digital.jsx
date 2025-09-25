@@ -186,7 +186,7 @@ export default function Portfolio() {
                   {[
                     { k: "10+", v: "Brands" },
                     { k: "2yr", v: "Experience" },
-                    { k: "$10K+", v: "Ad Spend" },
+                    { k: "$2K+", v: "Ad Spend" },
                   ].map((m) => (
                     <div key={m.k} className="rounded-xl border border-white/10 bg-white/5 p-3 text-center">
                       <p className="text-xl font-semibold">{m.k}</p>
